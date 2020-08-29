@@ -1,6 +1,7 @@
 body {
 	background-image: url(https://img.freepik.com/free-photo/3d_118019-634.jpg?size=338&ext=jpg); 
 	background-size: 300px;
+	cursor: default;
 }
 
 #shapka {
@@ -79,4 +80,32 @@ body {
 #menu:hover {
 	background: #9fe7ce;
 	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+/*********************** 
+        media1024px
+***********************/
+@media (max-width: 1034px){
+	#podtext {
+		opacity: 0;
+	}
+	
+	#logo {
+		top: 260px;
+	}
+	
+	#menu {
+		height: 100px
+	
+	}
+	
+	#h1 {
+		background-color: #fff;
+		padding-left: 100px;
+		color: #333366;
+		border: 2px double grey;
+		margin-left:-200px;
+		width:1000px;
+	}
 }
